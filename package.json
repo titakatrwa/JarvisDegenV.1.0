@@ -1,0 +1,23 @@
+{
+  "name": "jdegen-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MVP de simulation de l'agent JarvisDegen sur Solana",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "check": "tsc -p tsconfig.json --noEmit && vitest run"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}

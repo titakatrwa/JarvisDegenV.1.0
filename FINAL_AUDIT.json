@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-20",
+  "point_6_termine": true,
+  "mvp_techniquement_certifie": true,
+  "strategie_promue": false,
+  "tests_python": 95,
+  "tests_typescript": 4,
+  "compilation_typescript": true,
+  "audit_lancement": {"reussis": 6, "total": 6, "bloquants": 0},
+  "chaine_audit": {"valide": true, "decisions": 17},
+  "validation_locale": {"score": 18, "barrieres_reussies": 2, "barrieres": 11},
+  "multi_marches": {"disponibles": 2, "positifs": 0, "requis": 2, "valide": false},
+  "candidat_paper": false,
+  "paper_automatique_arme": false,
+  "trading_reel": false
+}
